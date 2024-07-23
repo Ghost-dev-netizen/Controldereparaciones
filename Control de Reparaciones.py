@@ -37,6 +37,13 @@ menubar.add_cascade(label="Archivo", menu=filemenu)
 menubar.add_cascade(label="Editar", menu=editmenu)
 menubar.add_cascade(label="Ayuda", menu=helpmenu)
 
+#botones de funciones
+
+boton = tk.Button(text="Rechazar equipo")
+boton.place(x=140, y=50)
+
+boton = tk.Button(text="Ingresar equipo")
+boton.place(x=140, y=80)
 
 
 root.mainloop()
