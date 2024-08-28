@@ -2,11 +2,13 @@ from tkinter import *
 root = Tk() 
 root.title('Control de reparaciones')
 root.geometry("800x900")
-root.minsize(600, 100)
-root.maxsize(800, 600)
+root.minsize(800, 700)
+root.maxsize(1920, 1080)
 root.iconbitmap("imgfactura.ico")
 root.configure(bg="seagreen3")
-root.resizable(False,True)
+root.resizable(False,True
+entry = Entry(root)
+entry.pack()
 
 Label(root, text="¡Sistema de control de reparaciones!").pack(anchor=CENTER)
 
@@ -41,6 +43,9 @@ menubar.add_cascade(label="Ayuda", menu=helpmenu)
 
 #botones de funciones y cuadro de texto
 
- 
+
+Label(root, text="Ingresar Celular").pack(anchor=NW)
+
+
 
 root.mainloop()
